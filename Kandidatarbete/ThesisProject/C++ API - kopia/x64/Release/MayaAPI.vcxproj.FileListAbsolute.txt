@@ -1,0 +1,2 @@
+E:\C++ projekt\Kandidatarbete\ThesisProject\C++ API\x64\Release\MayaAPI.mll
+E:\C++ projekt\Kandidatarbete\ThesisProject\C++ API - kopia\x64\Release\MayaAPI.mll

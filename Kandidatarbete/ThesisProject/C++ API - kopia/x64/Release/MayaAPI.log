@@ -1,0 +1,15 @@
+﻿  mayaRun.cpp
+E:\C++ projekt\Kandidatarbete\ThesisProject\C++ API - kopia\UD1447 Projekt\mayaRun.cpp(56,21): warning C4018: '<': signed/unsigned mismatch
+E:\C++ projekt\Kandidatarbete\ThesisProject\C++ API - kopia\UD1447 Projekt\mayaRun.cpp(74,52): warning C4267: 'argument': conversion from 'size_t' to 'unsigned int', possible loss of data
+E:\C++ projekt\Kandidatarbete\ThesisProject\C++ API - kopia\UD1447 Projekt\mayaRun.cpp(75,52): warning C4267: 'argument': conversion from 'size_t' to 'unsigned int', possible loss of data
+E:\C++ projekt\Kandidatarbete\ThesisProject\C++ API - kopia\UD1447 Projekt\mayaRun.cpp(76,50): warning C4267: 'argument': conversion from 'size_t' to 'unsigned int', possible loss of data
+E:\C++ projekt\Kandidatarbete\ThesisProject\C++ API - kopia\UD1447 Projekt\mayaRun.cpp(77,50): warning C4267: 'argument': conversion from 'size_t' to 'unsigned int', possible loss of data
+E:\C++ projekt\Kandidatarbete\ThesisProject\C++ API - kopia\UD1447 Projekt\mayaRun.cpp(78,43): warning C4267: 'argument': conversion from 'size_t' to 'unsigned int', possible loss of data
+E:\C++ projekt\Kandidatarbete\ThesisProject\C++ API - kopia\UD1447 Projekt\mayaRun.cpp(79,48): warning C4267: 'argument': conversion from 'size_t' to 'unsigned int', possible loss of data
+LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/OPT:ICF' specification
+  mayaRun.obj : MSIL .netmodule or module compiled with /GL found; restarting link with /LTCG; add /LTCG to the link command line to improve linker performance
+LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/LTCG' specification
+     Creating library E:\C++ projekt\Kandidatarbete\ThesisProject\C++ API - kopia\x64\Release\MayaAPI.lib and object E:\C++ projekt\Kandidatarbete\ThesisProject\C++ API - kopia\x64\Release\MayaAPI.exp
+  Generating code
+  Finished generating code
+  MayaAPI.vcxproj -> E:\C++ projekt\Kandidatarbete\ThesisProject\C++ API - kopia\x64\Release\MayaAPI.mll

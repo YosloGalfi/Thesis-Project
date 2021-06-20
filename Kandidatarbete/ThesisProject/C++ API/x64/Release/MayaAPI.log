@@ -1,0 +1,17 @@
+﻿  mayaRun.cpp
+E:\C++ projekt\Kandidatarbete\ThesisProject\C++ API\UD1447 Projekt\mayaRun.cpp(36,21): warning C4018: '<': signed/unsigned mismatch
+E:\C++ projekt\Kandidatarbete\ThesisProject\C++ API\UD1447 Projekt\mayaRun.cpp(53,52): warning C4267: 'argument': conversion from 'size_t' to 'unsigned int', possible loss of data
+E:\C++ projekt\Kandidatarbete\ThesisProject\C++ API\UD1447 Projekt\mayaRun.cpp(54,52): warning C4267: 'argument': conversion from 'size_t' to 'unsigned int', possible loss of data
+E:\C++ projekt\Kandidatarbete\ThesisProject\C++ API\UD1447 Projekt\mayaRun.cpp(55,50): warning C4267: 'argument': conversion from 'size_t' to 'unsigned int', possible loss of data
+E:\C++ projekt\Kandidatarbete\ThesisProject\C++ API\UD1447 Projekt\mayaRun.cpp(56,50): warning C4267: 'argument': conversion from 'size_t' to 'unsigned int', possible loss of data
+E:\C++ projekt\Kandidatarbete\ThesisProject\C++ API\UD1447 Projekt\mayaRun.cpp(57,43): warning C4267: 'argument': conversion from 'size_t' to 'unsigned int', possible loss of data
+E:\C++ projekt\Kandidatarbete\ThesisProject\C++ API\UD1447 Projekt\mayaRun.cpp(58,48): warning C4267: 'argument': conversion from 'size_t' to 'unsigned int', possible loss of data
+E:\C++ projekt\Kandidatarbete\ThesisProject\C++ API\UD1447 Projekt\mayaRun.cpp(263,13): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+E:\VisualStudio\Studio\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(1369,5): warning MSB8012: TargetPath(E:\C++ projekt\Kandidatarbete\ThesisProject\C++ API\x64\Release\MayaAPI.mll) does not match the Linker's OutputFile property value (E:\Autodesk\Maya2022\bin\plug-ins\MayaAPI.mll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/OPT:ICF' specification
+  mayaRun.obj : MSIL .netmodule or module compiled with /GL found; restarting link with /LTCG; add /LTCG to the link command line to improve linker performance
+LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/LTCG' specification
+     Creating library E:\C++ projekt\Kandidatarbete\ThesisProject\C++ API\x64\Release\MayaAPI.lib and object E:\C++ projekt\Kandidatarbete\ThesisProject\C++ API\x64\Release\MayaAPI.exp
+  Generating code
+  Finished generating code
+  MayaAPI.vcxproj -> E:\C++ projekt\Kandidatarbete\ThesisProject\C++ API\x64\Release\MayaAPI.mll
