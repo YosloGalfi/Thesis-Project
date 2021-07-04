@@ -31,8 +31,8 @@ sourceList = [None] * size
 targetList = [None] * size
 
 # Indices for lists
-#sourceIndex = 0
-#targetIndex = 0
+sourceIndex = 0
+targetIndex = 0
 
 # Load source hierarchy
 def loadSourceList(node, index):
@@ -126,8 +126,8 @@ def transferData(sIndex, tIndex):
          
     pm.currentTime(0)
 
-def testing():    
-    nrOfTimes = 1000
+def transferSciPy():    
+    nrOfTimes = 1
     
     textfilepath = "C:/Users/Galfi/Documents/scipy.txt"
     textfile = open(textfilepath, "wb") 
@@ -150,7 +150,7 @@ def testing():
     textfile.close() 
 
    
-testing()
+transferSciPy()
  
     
                                     
