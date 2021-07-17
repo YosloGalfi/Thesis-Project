@@ -1,6 +1,7 @@
 import pymel.core as pm
 import pymel.core.datatypes as dt
 import sys
+import maya.cmds as cmds
 
 # Root joints for source and target
 sourceRoot = pm.ls(sl = True, type = 'joint')[0]
@@ -128,4 +129,27 @@ def transferData():
       
     # print "done"
     pm.currentTime(0)
-transferData()
+
+def doTest():    
+    nrOfTimes = 1
+    
+    textfilepath = "C:/Users/Galfi/Documents/PyMEL.txt"
+    textfile = open(textfilepath, "wb") 
+    
+    for i in range(nrOfTimes):
+        
+        cmds.timer(s=True)
+        
+        transferData()   
+        
+        t = cmds.timer(e = True)
+        time = str(t) + "\n"
+        timeEncode = time.encode()
+        textfile.write(timeEncode)
+        pm.currentTime(0)            
+     
+        
+    textfile.close() 
+      
+doTest()
+

@@ -120,27 +120,27 @@ def transferData():
         np.empty_like(worldRotation)
         np.empty_like(translatedRotation)
         
-        #rootTranslation = np.array(sourceRoot.getTranslation())
-        #rootOrientation = np.array(sourceRoot.getOrientation())
-        #rootRotation = np.array(sourceRoot.getRotation()) 
+        rootTranslation = np.array(sourceRoot.getTranslation())
+        rootOrientation = np.array(sourceRoot.getOrientation())
+        rootRotation = np.array(sourceRoot.getRotation()) 
         
         loadSource(pmSource, keys)
         loadTarget(pmTarget, keys)
         
         targetRoot.setOrientation(np.array(sourceRoot.getOrientation()))
         targetRoot.setRotation(np.array(sourceRoot.getRotation()))
-       #targetRoot.setTranslation(rootTranslation)
+        targetRoot.setTranslation(rootTranslation)
        
         pm.setKeyframe(targetRoot)
          
     pm.currentTime(0)
 
               
-def transferNumPy():    
+def testing():    
     nrOfTimes = 1
    
       
-    textfilepath = "C:/Users/Galfi/Documents/testNumPy.txt"
+    textfilepath = "C:/Users/Galfi/Documents/NumPy.txt"
     textfile = open(textfilepath, "wb") 
     
     for i in range(nrOfTimes):        
@@ -167,4 +167,4 @@ def transferNumPy():
     textfile.close() 
 
    
-transferNumPy()
+testing()

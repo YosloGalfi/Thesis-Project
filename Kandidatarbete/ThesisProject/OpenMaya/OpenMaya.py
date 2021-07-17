@@ -1,6 +1,7 @@
 import maya.OpenMaya as om
 import maya.OpenMayaAnim as oma
 import maya.cmds as cmds
+import pymel.core as pm
 
 sourceAList = om.MDagPathArray()
 targetAList = om.MDagPathArray()
@@ -15,10 +16,9 @@ sourceParentMatrices = om.MMatrixArray()
 targetParentMatrices = om.MMatrixArray()	
 
 worldRotation = om.MMatrixArray()	
-translatedRotation = om.MMatrixArray()	
+translatedRotation = om.MMatrixArray()
 
-animationLength = 51
-
+animationLength = (pm.keyframe(q=True, kc=True)) / 10
 
 def loadList(node, source):      
             
@@ -144,7 +144,7 @@ def transfer():
     loadList(targetRoot, False)  
     
     
-    for i in range(animationLength):
+    for i in range(int(animationLength)):
         om.MGlobal.viewFrame(i)
         
         worldRotation.clear() 
@@ -182,11 +182,11 @@ def transfer():
     cmds.select(targetRootStr, add=True) 
    
 
-def transferOpenMaya():   
+def testing():   
 
     nrOfTimes = 1
     
-    textfilepath = "C:/Users/Galfi/Desktop/OpenMayaTest.txt"
+    textfilepath = "C:/Users/Galfi/Documents/OpenMaya.txt"
     textfile = open(textfilepath, "wb") 
     
     for i in range(nrOfTimes):
@@ -211,7 +211,7 @@ def transferOpenMaya():
         
     textfile.close() 
       
-transferOpenMaya()
+testing()
 
  
     
